@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	/* Add the following lines to center the container */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Define the style of todo list items */
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Define the style of checkbox input */
+.todo-list input[type="checkbox"] {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+/* Define the style of checked todo list items */
+.todo-list li.checked {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Define the style of the add todo form */
+.add-todo-form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+
+.add-todo-form input[type="submit"] {
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.form-delete-todo {
+    margin-bottom: 20px;
+}
+
+.label-select-todo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select-todo {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.btn-delete-todo {
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete-todo:hover {
+    background-color: #c9302c;
+}
+
+.form-xml-todo,
+.form-json-todo {
+    margin-bottom: 20px;
+}
+
+.btn-xml-todo,
+.btn-json-todo {
+    background-color: #337ab7;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-xml-todo:hover,
+.btn-json-todo:hover {
+    background-color: #286090;
+}
+
